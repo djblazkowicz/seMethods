@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982bef63-4628-4176-b08d-ce8cfc065bdc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,17 +93,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
-                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -122,7 +112,8 @@
       <updated>1579018704239</updated>
       <workItem from="1579018707265" duration="3379000" />
       <workItem from="1579452540436" duration="757000" />
-      <workItem from="1579599098789" duration="2918000" />
+      <workItem from="1579599098789" duration="3877000" />
+      <workItem from="1579625489103" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, initial release">
       <created>1579020032034</created>
@@ -138,16 +129,37 @@
       <option name="project" value="LOCAL" />
       <updated>1579021167560</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dockerfile added">
+      <created>1579602299841</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579602299841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit, initial release" />
     <MESSAGE value="Second Commit, includes app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit, includes app" />
+    <MESSAGE value="Dockerfile added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="179" key="#Notifications" timestamp="1579019871063">
@@ -166,10 +178,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="348" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579452611172" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1579021166388">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1579602298773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579021166388" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579602298773" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579018904917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -178,14 +190,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579600835755" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579021227632">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579602365276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579021227632" />
-    <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579599224968">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579602365276" />
+    <state x="499" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579626203845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579599224968" />
+    <state x="499" y="236" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579626203845" />
     <state x="681" y="312" key="git4idea.merge.GitPullDialog" timestamp="1579019704774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
