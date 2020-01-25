@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="982bef63-4628-4176-b08d-ce8cfc065bdc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,9 +98,9 @@
       <deployment type="docker-image">
         <settings>
           <option name="command" value="" />
-          <option name="containerName" value="mongo-dbserver" />
+          <option name="containerName" value="" />
           <option name="entrypoint" value="" />
-          <option name="imageTag" value="mongo:latest" />
+          <option name="imageTag" value="sha256:cecaa78044410c64af55338bd1d999f5c79ce8dc3536a730c86359bb6e9c1f5a" />
           <option name="commandLineOptions" value="--network se-methods" />
         </settings>
       </deployment>
@@ -113,6 +109,7 @@
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="buildOnly" value="true" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
@@ -125,6 +122,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
@@ -140,6 +139,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Docker" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="Containers" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -168,7 +172,7 @@
       <workItem from="1579599098789" duration="3877000" />
       <workItem from="1579625489103" duration="1718000" />
       <workItem from="1579716709740" duration="936000" />
-      <workItem from="1579946531672" duration="1113000" />
+      <workItem from="1579946531672" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, initial release">
       <created>1579020032034</created>
@@ -226,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579725623667</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="mongodb addition">
+      <created>1579947821499</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579947821499</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,13 +264,18 @@
     <MESSAGE value="Travis file fixed" />
     <MESSAGE value="appended readme" />
     <MESSAGE value="appended readme and added docker config to .travis.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="appended readme and added docker config to .travis.yml" />
+    <MESSAGE value="mongodb addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongodb addition" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="679" y="168" key="#Docker_Image" timestamp="1579947645027">
+    <state x="679" y="168" key="#Docker_Image" timestamp="1579948022115">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="679" y="168" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1579947645027" />
+    <state x="679" y="168" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1579948022115" />
+    <state x="679" y="86" key="#Dockerfile" timestamp="1579947939370">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="86" key="#Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1579947939370" />
     <state x="552" y="179" key="#Notifications" timestamp="1579946530067" />
     <state x="552" y="179" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1579946530068" />
     <state x="552" y="179" key="#Project_Structure" timestamp="1579947048904">
@@ -274,28 +290,28 @@
     <state x="414" y="176" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579946530068" />
     <state x="689" y="348" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579946530068" />
     <state x="689" y="348" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579946530068" />
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1579947750923">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1579947818742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579947750923" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579947818742" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579946530068" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579946530068" />
-    <state width="938" height="825" key="GridCell.Tab.0.bottom" timestamp="1579947446716">
+    <state width="1877" height="825" key="GridCell.Tab.0.bottom" timestamp="1579947866790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="825" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579947446716" />
-    <state width="938" height="825" key="GridCell.Tab.0.center" timestamp="1579947446716">
+    <state width="1877" height="825" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579947866790" />
+    <state width="1877" height="825" key="GridCell.Tab.0.center" timestamp="1579947866790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="825" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579947446716" />
-    <state width="938" height="825" key="GridCell.Tab.0.left" timestamp="1579947446716">
+    <state width="1877" height="825" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579947866790" />
+    <state width="1877" height="825" key="GridCell.Tab.0.left" timestamp="1579947866790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="825" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579947446716" />
-    <state width="938" height="825" key="GridCell.Tab.0.right" timestamp="1579947446716">
+    <state width="1877" height="825" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579947866790" />
+    <state width="1877" height="825" key="GridCell.Tab.0.right" timestamp="1579947866790">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="825" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579947446716" />
+    <state width="1877" height="825" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579947866790" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1579947167172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,10 +330,10 @@
     <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579947167172" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1579946530068" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579946530068" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579947788271">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579947824801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579947788271" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579947824801" />
     <state x="499" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1579946532637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
